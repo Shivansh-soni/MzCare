@@ -1,8 +1,9 @@
-import "./App.css";
 import Dashbaord from "./Components/Dashboard/Dashboard";
+import React from "react";
+
 const App = () => {
   return (
-    <div className="App">
+    <div className="bg-white md:w-full" data-theme="night">
       <Dashbaord />
     </div>
   );
