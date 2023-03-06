@@ -48,7 +48,7 @@ const Card = () => {
 const DbRight = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <div className="lg:w-8/12 flex -ml-16 lg:ml-0   flex-col  gap-10  p-2 mb-44 lg:mb-0">
+    <div className="lg:w-8/12 flex md:-ml-16 lg:ml-0   flex-col  gap-10  p-2 mb-44 lg:mb-0">
       {/* -----TOP----------- */}
       <div className="flex lg:flex-row lg:items-center -ml-6 gap-5   lg:justify-between">
         <div className="search flex item-center ">
