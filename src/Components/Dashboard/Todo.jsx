@@ -9,7 +9,7 @@ const Todo = () => {
           <label className=" flex items-center gap-2 cursor-pointer">
             <input
               type="checkbox"
-              checked="checked"
+              // checked="checked"
               className="checkbox checkbox-sm"
             />
             <span className="   text-black text-lg">Call Rohan</span>
@@ -17,7 +17,7 @@ const Todo = () => {
           <label className=" flex items-center gap-2 cursor-pointer">
             <input
               type="checkbox"
-              checked="checked"
+              // checked="checked"
               className="checkbox checkbox-sm"
             />
             <span className="   text-black text-lg">Meeting at 7pm </span>

@@ -8,9 +8,9 @@ import {
   HiFire,
 } from "react-icons/hi2";
 import { BsFillCollectionFill } from "react-icons/bs";
-
 import Todo from "./Todo";
 import Team from "./Team";
+import Charts from "./Charts";
 
 const Card = () => {
   return (
@@ -134,8 +134,11 @@ const DbRight = () => {
       {/* --------HERO----------- */}
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="hero-left flex flex-col gap-4 lg:gap-8">
-          <div className="charts bg_yellow p-5  rounded-2xl">
-            <img src={images.Chart} alt="" />
+          <div className="charts bg_yellow p-5 w-96 rounded-2xl">
+            <div>
+              <p className="text-black font-bold">Activities</p>
+            </div>
+            <Charts />
           </div>
 
           {/* ----------TODO--------------- */}

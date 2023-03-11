@@ -1,9 +1,11 @@
 .yellow {
-    color: #F8F988;
+    /* color: #F8F988; */
+    color: #efeff0;
 }
 
 .bg_yellow {
-    background: #F8F988;
+    /* background: #F8F988; */
+    background: #efeff0;
 }
 
 .info {
